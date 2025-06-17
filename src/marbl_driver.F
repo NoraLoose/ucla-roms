@@ -96,7 +96,7 @@
 !     Keeping count of diagnostics:
 !     These are the amount to allocate in ROMS...
       integer, parameter, public :: nr_marbl_diag_2d = 179
-      integer, parameter, public :: nr_marbl_diag_3d = 164
+      integer, parameter, public :: nr_marbl_diag_3d = 166 ! add 2 for 2 additional MARBL tracers
 !     ... and these are the amount supplied by MARBL (to be counted up)
       integer, public :: diag_cnt_sf_2d  ! Number of MARBL 2D surface flux diagnostic vars
       integer, public :: diag_cnt_sf_3d  ! Number of MARBL 3D surface flux diagnostic vars
